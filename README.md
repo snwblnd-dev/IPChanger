@@ -6,7 +6,9 @@ A simple Python command-line utility to check your public IP address and route r
 Setup:
 
 Required Dependencies: requests, PySocks, and stem (pip install requests stem PySocks)
+
 To route through the Tor network, you must have Tor installed on your system.
+
 By default, the script assumes the tor executable is in your system’s PATH
 If it is not, you can specify the path to the executable using –torcmd
 
