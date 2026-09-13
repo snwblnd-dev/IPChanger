@@ -18,7 +18,10 @@ Running the program without flags will just show your current public IP address.
 
 Command-line flags:
 -t: route traffic through a local Tor instance on port 9050
+
 -p: specify a proxy server IP address to route traffic through (format as ip:port); supports http/https proxy connections.
+
 –torcmd: specify the path to the tor browser executable
+
 
 If flags are used to route traffic through a service, they will display your public IP after traffic has been routed. This allows you to confirm your public IP is not what websites are receiving.
